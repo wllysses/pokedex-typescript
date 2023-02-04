@@ -1,0 +1,38 @@
+.header {
+    background-color: #dc4343;
+    padding: 1rem;
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            img {
+                max-width: 70px;
+            }
+    
+            .title-and-subtitle {
+    
+                display: flex;
+                flex-direction: column;
+    
+                .title {
+                    color: #fff;
+                }
+    
+                .subtitle {
+                    color: #fff;
+                    letter-spacing: 4px;
+                    margin-top: -0.6rem;
+                    margin-left: 3.5rem;
+                }
+            }
+        }
+
+    }
+}

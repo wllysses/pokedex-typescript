@@ -1,0 +1,60 @@
+$primary-color: #dc4343;
+$secondary-color: #EEEDF2;
+$white: #fff;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $secondary-color;
+    --webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
