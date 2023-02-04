@@ -7,14 +7,11 @@ export const Header = () => {
         <div className="header">
             <div className="container">
                 <header>
-                    <div>
                         <img src={pokeballImage} alt="Pokeball Image" />
                         <div className="title-and-subtitle">
                             <h1 className="title">MyPokedéx</h1>
                             <span className="subtitle">with Typescript</span>
                         </div>
-                    </div>
-
                 </header>
             </div>
         </div>

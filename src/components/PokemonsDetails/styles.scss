@@ -5,12 +5,20 @@
     justify-content: center;
     gap: 2rem;
 
+    @media(max-width: 535px) {
+        flex-direction: column;
+    }
+
     .image-side {
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+
+        @media(max-width: 535px) {
+            width: 100%;
+        }
 
         img {
             max-width: 100%;

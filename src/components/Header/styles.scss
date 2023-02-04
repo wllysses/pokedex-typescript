@@ -5,34 +5,35 @@
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        gap: 0.5rem;
 
-        div {
+        img {
+            max-width: 70px;
+        }
+
+        .title-and-subtitle {
+
             display: flex;
-            align-items: center;
-            gap: 0.5rem;
+            flex-direction: column;
 
-            img {
-                max-width: 70px;
+            .title {
+                color: #fff;
             }
-    
-            .title-and-subtitle {
-    
-                display: flex;
-                flex-direction: column;
-    
-                .title {
-                    color: #fff;
+
+            .subtitle {
+                color: #fff;
+                letter-spacing: 4px;
+                margin-top: -0.6rem;
+                margin-left: 3.5rem;
+
+                @media(max-width: 670px) {
+                    letter-spacing: 0px;
                 }
-    
-                .subtitle {
-                    color: #fff;
-                    letter-spacing: 4px;
-                    margin-top: -0.6rem;
-                    margin-left: 3.5rem;
+
+                @media(max-width: 500px) {
+                    margin-left: 2.5rem;
                 }
             }
         }
-
     }
 }
